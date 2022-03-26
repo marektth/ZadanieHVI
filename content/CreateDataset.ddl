@@ -1,5 +1,5 @@
 CREATE TABLE dataset (
-    product_ID int AUTO_INCREMENT,
+    data_Index int AUTO_INCREMENT,
     FOD varchar(50) NOT NULL,
     LOD varchar(50) NOT NULL,
     ROD varchar(50) NOT NULL,
