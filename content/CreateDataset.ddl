@@ -5,5 +5,5 @@ CREATE TABLE dataset (
     ROD varchar(50) NOT NULL,
     TA varchar(50) NOT NULL,
     TurningDirection varchar(50) NOT NULL,
-    CONSTRAINT PK_product PRIMARY KEY (product_ID)
+    CONSTRAINT PK_INDEX PRIMARY KEY (data_Index)
 );
