@@ -33,7 +33,7 @@ def CreateOrder():
     sql = ddl_file.read()
   myDb = MYSQL.connect(host="147.232.40.14", user="mt830ca", passwd="eeY1ooxe", database="mt830ca")
   cursor = myDb.cursor()
-  cursor.execute(sql.format(dataset_dict['FOD'],dataset_dict['LOD'],dataset_dict['ROD'],dataset_dict['TA'],dataset_dict['TurningDirection']))
+  cursor.execute(sql.format(dataset_dict["FOD"],dataset_dict["LOD"],dataset_dict["ROD"],dataset_dict["TA"],dataset_dict["TurningDirection"]))
   myDb.commit()
   cursor.close()
   myDb.close()
